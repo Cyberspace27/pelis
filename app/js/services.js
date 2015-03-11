@@ -7,7 +7,7 @@
 // In this case it is a simple value service.
 angular.module('myApp.services', []).
   value('version', '0.1')
-  .constant('API_KEY' , '66b2fvdtrw6mr754pemwaz8p')
+  .constant('API_KEY' , 'buppdvud3h6n9r2mxdqvc9wh')
 
   .factory('rtmFactory', ['$http','API_KEY',function($http,API_KEY){
   	var countries = [
